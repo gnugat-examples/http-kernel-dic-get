@@ -1,0 +1,4 @@
+# app/config/services/controller.yml
+services:
+    app.hello_controller:
+        class: AppBundle\Controller\HelloController

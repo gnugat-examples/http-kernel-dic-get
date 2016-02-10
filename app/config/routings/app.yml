@@ -1,0 +1,7 @@
+# app/config/routings/app.yml
+hello_world:
+    path: /
+    defaults:
+        _controller: app.hello_controller:world
+    methods:
+        - GET
